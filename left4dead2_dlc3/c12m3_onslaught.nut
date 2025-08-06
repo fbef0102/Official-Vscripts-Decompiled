@@ -8,9 +8,9 @@ DirectorOptions <-
 	PreferredMobDirection = SPAWN_IN_FRONT_OF_SURVIVORS
 	MobSpawnMinTime = 1
 	MobSpawnMaxTime = 2
-	MobMaxPending = 30
-	MobMinSize = 20
-	MobMaxSize = 28
+	MobMaxPending = 0
+	MobMinSize = 18
+	MobMaxSize = 27
 	SustainPeakMinTime = 1
 	SustainPeakMaxTime = 3
 	IntensityRelaxThreshold = 0.90
@@ -20,5 +20,5 @@ DirectorOptions <-
 }
 
 Director.ResetMobTimer()
-
+Director.PlayMegaMobWarningSounds()
 
